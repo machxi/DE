@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F51FC992822B4D800CC0C1F /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 3F51FC982822B4D800CC0C1F /* Font */; };
+		3F98057D2822A5BD004E7A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98057C2822A5BD004E7A5F /* AppDelegate.swift */; };
+		3F98057F2822A5BD004E7A5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98057E2822A5BD004E7A5F /* SceneDelegate.swift */; };
+		3F9805812822A5BD004E7A5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9805802822A5BD004E7A5F /* ViewController.swift */; };
+		3F9805842822A5BD004E7A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9805822822A5BD004E7A5F /* Main.storyboard */; };
+		3F9805862822A5BF004E7A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9805852822A5BF004E7A5F /* Assets.xcassets */; };
+		3F9805892822A5BF004E7A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9805872822A5BF004E7A5F /* LaunchScreen.storyboard */; };
+		3F9805942822A5BF004E7A5F /* meditationKravchenkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9805932822A5BF004E7A5F /* meditationKravchenkoTests.swift */; };
+		3F98059E2822A5BF004E7A5F /* meditationKravchenkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98059D2822A5BF004E7A5F /* meditationKravchenkoUITests.swift */; };
+		3F9805A02822A5BF004E7A5F /* meditationKravchenkoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98059F2822A5BF004E7A5F /* meditationKravchenkoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9805902822A5BF004E7A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9805712822A5BD004E7A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9805782822A5BD004E7A5F;
+			remoteInfo = meditationKravchenko;
+		};
+		3F98059A2822A5BF004E7A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9805712822A5BD004E7A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9805782822A5BD004E7A5F;
+			remoteInfo = meditationKravchenko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F51FC982822B4D800CC0C1F /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
+		3F9805792822A5BD004E7A5F /* meditationKravchenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meditationKravchenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F98057C2822A5BD004E7A5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F98057E2822A5BD004E7A5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F9805802822A5BD004E7A5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9805832822A5BD004E7A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9805852822A5BF004E7A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9805882822A5BF004E7A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F98058A2822A5BF004E7A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F98058F2822A5BF004E7A5F /* meditationKravchenkoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meditationKravchenkoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9805932822A5BF004E7A5F /* meditationKravchenkoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationKravchenkoTests.swift; sourceTree = "<group>"; };
+		3F9805992822A5BF004E7A5F /* meditationKravchenkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meditationKravchenkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F98059D2822A5BF004E7A5F /* meditationKravchenkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationKravchenkoUITests.swift; sourceTree = "<group>"; };
+		3F98059F2822A5BF004E7A5F /* meditationKravchenkoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationKravchenkoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9805762822A5BD004E7A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F98058C2822A5BF004E7A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9805962822A5BF004E7A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9805702822A5BD004E7A5F = {
+			isa = PBXGroup;
+			children = (
+				3F98057B2822A5BD004E7A5F /* meditationKravchenko */,
+				3F9805922822A5BF004E7A5F /* meditationKravchenkoTests */,
+				3F98059C2822A5BF004E7A5F /* meditationKravchenkoUITests */,
+				3F98057A2822A5BD004E7A5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F98057A2822A5BD004E7A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9805792822A5BD004E7A5F /* meditationKravchenko.app */,
+				3F98058F2822A5BF004E7A5F /* meditationKravchenkoTests.xctest */,
+				3F9805992822A5BF004E7A5F /* meditationKravchenkoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F98057B2822A5BD004E7A5F /* meditationKravchenko */ = {
+			isa = PBXGroup;
+			children = (
+				3F9805AE2822A9B8004E7A5F /* Supporting files */,
+				3F9805AC2822A7B9004E7A5F /* View */,
+				3F9805AD2822A7D7004E7A5F /* Controllers */,
+				3F98058A2822A5BF004E7A5F /* Info.plist */,
+			);
+			path = meditationKravchenko;
+			sourceTree = "<group>";
+		};
+		3F9805922822A5BF004E7A5F /* meditationKravchenkoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9805932822A5BF004E7A5F /* meditationKravchenkoTests.swift */,
+			);
+			path = meditationKravchenkoTests;
+			sourceTree = "<group>";
+		};
+		3F98059C2822A5BF004E7A5F /* meditationKravchenkoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F98059D2822A5BF004E7A5F /* meditationKravchenkoUITests.swift */,
+				3F98059F2822A5BF004E7A5F /* meditationKravchenkoUITestsLaunchTests.swift */,
+			);
+			path = meditationKravchenkoUITests;
+			sourceTree = "<group>";
+		};
+		3F9805AC2822A7B9004E7A5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F9805822822A5BD004E7A5F /* Main.storyboard */,
+				3F9805872822A5BF004E7A5F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F9805AD2822A7D7004E7A5F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F9805802822A5BD004E7A5F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F9805AE2822A9B8004E7A5F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3F98057C2822A5BD004E7A5F /* AppDelegate.swift */,
+				3F98057E2822A5BD004E7A5F /* SceneDelegate.swift */,
+				3F51FC982822B4D800CC0C1F /* Font */,
+				3F9805852822A5BF004E7A5F /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9805782822A5BD004E7A5F /* meditationKravchenko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9805A32822A5BF004E7A5F /* Build configuration list for PBXNativeTarget "meditationKravchenko" */;
+			buildPhases = (
+				3F9805752822A5BD004E7A5F /* Sources */,
+				3F9805762822A5BD004E7A5F /* Frameworks */,
+				3F9805772822A5BD004E7A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meditationKravchenko;
+			productName = meditationKravchenko;
+			productReference = 3F9805792822A5BD004E7A5F /* meditationKravchenko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F98058E2822A5BF004E7A5F /* meditationKravchenkoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9805A62822A5BF004E7A5F /* Build configuration list for PBXNativeTarget "meditationKravchenkoTests" */;
+			buildPhases = (
+				3F98058B2822A5BF004E7A5F /* Sources */,
+				3F98058C2822A5BF004E7A5F /* Frameworks */,
+				3F98058D2822A5BF004E7A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9805912822A5BF004E7A5F /* PBXTargetDependency */,
+			);
+			name = meditationKravchenkoTests;
+			productName = meditationKravchenkoTests;
+			productReference = 3F98058F2822A5BF004E7A5F /* meditationKravchenkoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F9805982822A5BF004E7A5F /* meditationKravchenkoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9805A92822A5BF004E7A5F /* Build configuration list for PBXNativeTarget "meditationKravchenkoUITests" */;
+			buildPhases = (
+				3F9805952822A5BF004E7A5F /* Sources */,
+				3F9805962822A5BF004E7A5F /* Frameworks */,
+				3F9805972822A5BF004E7A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F98059B2822A5BF004E7A5F /* PBXTargetDependency */,
+			);
+			name = meditationKravchenkoUITests;
+			productName = meditationKravchenkoUITests;
+			productReference = 3F9805992822A5BF004E7A5F /* meditationKravchenkoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9805712822A5BD004E7A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F9805782822A5BD004E7A5F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F98058E2822A5BF004E7A5F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3F9805782822A5BD004E7A5F;
+					};
+					3F9805982822A5BF004E7A5F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3F9805782822A5BD004E7A5F;
+					};
+				};
+			};
+			buildConfigurationList = 3F9805742822A5BD004E7A5F /* Build configuration list for PBXProject "meditationKravchenko" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9805702822A5BD004E7A5F;
+			productRefGroup = 3F98057A2822A5BD004E7A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9805782822A5BD004E7A5F /* meditationKravchenko */,
+				3F98058E2822A5BF004E7A5F /* meditationKravchenkoTests */,
+				3F9805982822A5BF004E7A5F /* meditationKravchenkoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9805772822A5BD004E7A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9805892822A5BF004E7A5F /* LaunchScreen.storyboard in Resources */,
+				3F9805862822A5BF004E7A5F /* Assets.xcassets in Resources */,
+				3F9805842822A5BD004E7A5F /* Main.storyboard in Resources */,
+				3F51FC992822B4D800CC0C1F /* Font in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F98058D2822A5BF004E7A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9805972822A5BF004E7A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9805752822A5BD004E7A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9805812822A5BD004E7A5F /* ViewController.swift in Sources */,
+				3F98057D2822A5BD004E7A5F /* AppDelegate.swift in Sources */,
+				3F98057F2822A5BD004E7A5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F98058B2822A5BF004E7A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9805942822A5BF004E7A5F /* meditationKravchenkoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9805952822A5BF004E7A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9805A02822A5BF004E7A5F /* meditationKravchenkoUITestsLaunchTests.swift in Sources */,
+				3F98059E2822A5BF004E7A5F /* meditationKravchenkoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9805912822A5BF004E7A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9805782822A5BD004E7A5F /* meditationKravchenko */;
+			targetProxy = 3F9805902822A5BF004E7A5F /* PBXContainerItemProxy */;
+		};
+		3F98059B2822A5BF004E7A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9805782822A5BD004E7A5F /* meditationKravchenko */;
+			targetProxy = 3F98059A2822A5BF004E7A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9805822822A5BD004E7A5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9805832822A5BD004E7A5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9805872822A5BF004E7A5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9805882822A5BF004E7A5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9805A12822A5BF004E7A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F9805A22822A5BF004E7A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9805A42822A5BF004E7A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meditationKravchenko/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kp11.meditationKravchenko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9805A52822A5BF004E7A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meditationKravchenko/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kp11.meditationKravchenko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F9805A72822A5BF004E7A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kp11.meditationKravchenkoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meditationKravchenko.app/meditationKravchenko";
+			};
+			name = Debug;
+		};
+		3F9805A82822A5BF004E7A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kp11.meditationKravchenkoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meditationKravchenko.app/meditationKravchenko";
+			};
+			name = Release;
+		};
+		3F9805AA2822A5BF004E7A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kp11.meditationKravchenkoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meditationKravchenko;
+			};
+			name = Debug;
+		};
+		3F9805AB2822A5BF004E7A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kp11.meditationKravchenkoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meditationKravchenko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9805742822A5BD004E7A5F /* Build configuration list for PBXProject "meditationKravchenko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9805A12822A5BF004E7A5F /* Debug */,
+				3F9805A22822A5BF004E7A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9805A32822A5BF004E7A5F /* Build configuration list for PBXNativeTarget "meditationKravchenko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9805A42822A5BF004E7A5F /* Debug */,
+				3F9805A52822A5BF004E7A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9805A62822A5BF004E7A5F /* Build configuration list for PBXNativeTarget "meditationKravchenkoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9805A72822A5BF004E7A5F /* Debug */,
+				3F9805A82822A5BF004E7A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9805A92822A5BF004E7A5F /* Build configuration list for PBXNativeTarget "meditationKravchenkoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9805AA2822A5BF004E7A5F /* Debug */,
+				3F9805AB2822A5BF004E7A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9805712822A5BD004E7A5F /* Project object */;
+}
